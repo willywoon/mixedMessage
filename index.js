@@ -8,6 +8,7 @@ const message3 = ['maybe today You have a good pratice', 'today is the day', ' Y
 
 const randomGenerator = (arr) => {
     result = Math.floor(Math.random() * arr.length);
+    console.log(result);
     return result;
 }
 
