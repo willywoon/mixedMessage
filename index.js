@@ -18,9 +18,17 @@ const astrology1 = ['Anyone can be a millionaire', 'but to become a billionaire 
 const astrology2 = ['A physician without a knowledge of Astrology', 'has no right to call himself a physician'];
 const astrology3 = ['Astrology is just a finger', 'pointing at reality']
 
-//this functin return a number between the length of the array passed
+//random generator between a rage 
 
-const randomGenerator = (arr) => {
+const rndom = num => {
+    let number = Math.floor(Match.random() * num);
+
+}
+
+
+//this function return a number between the length of the array passed
+
+const randomGenerator = arr => {
     result = Math.floor(Math.random() * arr.length);
     console.log(result);
     return result;
